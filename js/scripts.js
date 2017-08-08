@@ -3,9 +3,13 @@ $(document).ready(function() {
       $("#initially-showing").toggle();
       $("#initially-hidden").toggle();
     });
-    $(".clic").click(function(){
-      $("#bird-hide").toggle();
+    $(".clic1").click(function(){
+      $("#bird-hide").hide();
 
-      $("#bird-show").toggle();
     });
+    $(".clic2").click(function(){
+      $("#bird-hide").show();
+
+    });
+
 });

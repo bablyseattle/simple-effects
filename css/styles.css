@@ -1,11 +1,11 @@
 #initially-showing{
   display: none;
 }
-.clickable, .clic{
+.clickable, .clic1, .clic2{
   cursor: pointer;
   color: #0088cc;
 }
-.clickable:hover, .clic:hover {
+.clickable:hover, .clic1:hover, .clic2:hover{
   text-decoration: underline;
 }
 #bird-show{
