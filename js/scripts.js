@@ -1,6 +1,11 @@
 $(document).ready(function() {
     $(".clickable").click(function() {
-      $(".walrus-showing").toggle();
-      $(".walrus-hidden").toggle();
+      $("#initially-showing").toggle();
+      $("#initially-hidden").toggle();
+    });
+    $(".clic").click(function(){
+      $("#bird-hide").toggle();
+
+      $("#bird-show").toggle();
     });
 });
